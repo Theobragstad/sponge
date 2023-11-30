@@ -1,6 +1,3 @@
-Certainly! Here is the Markdown checkbox list for your second set of tasks:
-
-```markdown
 - [ ] spongenotes.com
 - [ ] Google sign-in (auth)
 - [ ] Login page
@@ -53,5 +50,4 @@ Links:
 - [ ] [Google Sign-In with Firebase Auth](https://firebase.google.com/docs/auth/web/google-signin)
 - [ ] [Next.js Discussions](https://github.com/vercel/next.js/discussions/51135)
 - [ ] [Squarespace Domains](https://domains.squarespace.com/?channel=pbr&subchannel=go&campaign=pbr-go-us-en-core_category-e&subcampaign=(domains_squarespace-domain_e)&&cid=15698980494&aid=130361052446&tid=kwd-83891615004&mt=e&eid=&loc_p_ms=9028819&loc_i_ms=&nw=g&d=c&adid=571893405968&channel2=pbr&subchannel2=go&gad=1&gclid=CjwKCAjwyY6pBhA9EiwAMzmfwUJd3wEjxu19oiaOzYH492z2JyBNA-H3kOb4vLXhkBxBlPMHGoY1ABoC9akQAvD_BwE&gclsrc=aw.ds)
-```
 

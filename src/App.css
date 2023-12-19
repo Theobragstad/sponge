@@ -206,10 +206,87 @@ border-radius: 10px;
   vertical-align: middle;
 }
 
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.logoctr {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .gbtn {
-  border:none;
+  border: none;
   border-radius: 5px;
   background-color: #f0f0f0;
   cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-top: 300px;
 }
+
+
+
+
+
+
+.dragbtn {
+  position: relative;
+  top:0px;
+  left:0px;
+}
+
+.logowithtext {
+  position: relative;
+  left:0;
+  width:35px;
+  vertical-align: middle;
+}
+
+
+.orangecircle {
+  border-radius: 50%;
+  background-color: #f68e3a;
+  width:10px;
+  height:10px;
+}
+
+.yellowcircle {
+  border-radius: 50%;
+  background-color: #fff803;
+  width:10px;
+  height:10px;
+}
+
+
+
+
+
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+
+ 
+  background-color: #fff803;
+}
+.orange {
+  background-color: #f68e3a;
+}
+
+
+
 

@@ -48,7 +48,8 @@ const Menu = ({ notes }) => {
 
   return (
     <div>
-    <div className="notebar">{noteElements}</div>
+    <div className="notebar">{noteElements} <button  className="btnsimple" data-tooltip-id="misctooltip"
+    data-tooltip-content={`new note`}>{"+"}</button></div>
     <ReactTooltip id="notetooltip" className='tooltipdefault'/>
   </div>
   );

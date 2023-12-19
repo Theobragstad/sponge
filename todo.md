@@ -1,4 +1,5 @@
 - [ ] spongenotes.com
+- [ ] Firebase settings, permissions, etc, working
 - [ ] Google sign-in (auth)
 - [ ] Login page
 - [ ] Redirects to the main page

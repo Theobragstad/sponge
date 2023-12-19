@@ -11,13 +11,11 @@ import grayicon from "./img/grayicon.png";
 import yellowicon from "./img/yellowicon.png";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
-
 const Menu = ({ notes }) => {
-  
-    document.addEventListener('contextmenu', (e) => {
-        e.preventDefault();
-      });
-      
+  document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });
+
   const icons = {
     yellow: yellowicon,
     orange: orangeicon,
@@ -39,19 +37,25 @@ const Menu = ({ notes }) => {
       <img
         src={icons[note.color]}
         alt={`note ${note.id}`}
-        className='noteicon'
+        className="noteicon"
       />
     </span>
   ));
 
-  
-
   return (
     <div>
-    <div className="notebar">{noteElements} <button  className="btnsimple" data-tooltip-id="misctooltip"
-    data-tooltip-content={`new note`}>{"+"}</button></div>
-    <ReactTooltip id="notetooltip" className='tooltipdefault'/>
-  </div>
+      <div className="notebar">
+        {noteElements}{" "}
+        <button
+          className="btnsimple"
+          data-tooltip-id="misctooltip"
+          data-tooltip-content={`new note`}
+        >
+          {"+"}
+        </button>
+      </div>
+      <ReactTooltip id="notetooltip" className="tooltipdefault" />
+    </div>
   );
 };
 

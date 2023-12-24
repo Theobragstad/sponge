@@ -1,1 +1,1 @@
-<img src="src/img/sponge4.png" style="width:30px">
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).

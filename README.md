@@ -1,1 +1,1 @@
-<img src="src/img/sponge4.png" style="width:30px">
+<img src="public/sponge.png" style="width:30px;vertical-align:middle"> **sponge <i>notes</i>**

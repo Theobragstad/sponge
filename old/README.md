@@ -1,1 +1,0 @@
-<img src="src/img/sponge4.png" style="width:30px">
